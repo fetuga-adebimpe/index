@@ -9,7 +9,7 @@ Author URL: http://w3layouts.com
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -9786,7 +9786,8 @@ a.navbar-brand span.fa {
     border: none; } }
 
 .w3l-main-banner {
-  position: relative; }
+  position: relative;
+background-color: #111; }
 
 .w3l-main-banner h3.banner-text {
   font-weight: 700;
@@ -9803,8 +9804,8 @@ a.navbar-brand span.fa {
   max-width: 750px; }
 
 .w3l-main-banner .banner-view {
-  background: url(../images/mainimage.jpg) no-repeat right;
-  background-size: cover;
+  background: url(../images/martins-1.JPG) no-repeat right;
+  background-size: contain;
   min-height: 700px;
   z-index: 0;
   display: grid;
@@ -9950,6 +9951,7 @@ a.navbar-brand span.fa {
 /*--//content with photo5--*/
 /* gallery-7 */
 .w3l-gallery-7 {
+  background-color: #ccc;
   /*******************KEYFRAMES*******************/
   /******************MEDIA QUERYS******************/
   /* responsive code */ }
