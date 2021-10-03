@@ -13104,14 +13104,15 @@ a.navbar-brand span.fa {
 }
 
 .w3l-main-banner .banner-view {
-  background: url(../images/martins-1.JPG) no-repeat right;
-  background-size: contain;
+  
+  background:#111;
   min-height: 700px;
   z-index: 0;
   display: grid;
   align-items: center;
   position: relative;
 }
+
 
 @media (max-width: 992px) {
   .w3l-main-banner h3.gallery4-head {
@@ -13142,11 +13143,12 @@ a.navbar-brand span.fa {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 600px){
-.w3l-main-banner .banner-view {
+@media (max-width: 600px) {
+  .w3l-main-banner .banner-view {
     min-height: 550px;
-    background: #111;
-}}
+    background: #111 !important;
+  }
+}
 
 @media (max-width: 569px) {
   .w3l-main-banner h3.gallery4-head {
@@ -13626,15 +13628,8 @@ a.navbar-brand span.fa {
 
 /*--//content with photo5--*/
 /* gallery-7 */
-.w3l-gallery-7 {
-  background-color: #ccc;
-  /*******************KEYFRAMES*******************/
-  /******************MEDIA QUERYS******************/
-  /* responsive code */
-}
-.w3l-gallery-7 .gallery-7_sur {
-  background-color: var(--bg-light);
-}
+
+
 .w3l-gallery-7 .galleryContainer {
   display: flex;
   flex-direction: column;
@@ -15553,18 +15548,17 @@ span.sicon {
 .all-promises-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: .75rem;
-    margin-bottom: .75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   gap: 8rem;
   font-weight: 600;
 }
 
-
 @media (min-width: 768px) {
-  .all-promises-container{
+  .all-promises-container {
     display: grid;
     width: 75%;
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     color: #edfdee;
     width: 80%;
     margin-top: 1.5rem;
@@ -15572,88 +15566,82 @@ span.sicon {
   }
 }
 
-
-.promises-container{
+.promises-container {
   counter-increment: promise-counter;
 }
 
 @media (min-width: 1024px) {
-  promises-container{
-    width: 80%;  }
+  promises-container {
+    width: 80%;
+  }
 }
 
 .first-promise {
   margin-bottom: 4rem;
-    margin-left: auto;
+  margin-left: auto;
 }
-.first-promise, .second-promise{
-  display:flex;
+.first-promise,
+.second-promise {
+  display: flex;
   flex-direction: column;
-    align-items: center;
+  align-items: center;
 }
-
 
 @media (min-width: 768px) {
-  .first-promise, .second-promise{
-    display:block;
+  .first-promise,
+  .second-promise {
+    display: block;
   }
 }
 
-.img-wrapper{
+.img-wrapper {
   width: 100%;
   counter-increment: promise-counter;
 }
 
-
-.element-promise{
+.element-promise {
   position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-bottom: 91.66666666666667%;}
-
-.element-img-promise{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-    opacity: 0;
-    transition-delay: 500ms;
-    max-width: 100%;
-    display: block;
-    vertical-align: middle;
-    border-style: solid;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 91.66666666666667%;
 }
 
+.element-img-promise {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 0;
+  transition-delay: 500ms;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+  border-style: solid;
+}
 
-
-
- .promise-h3{
+.promise-h3 {
   font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 600;
-    font-family: Oxanium;
-    margin: 0;
-    color:#edfdee;
-    margin-top: .75rem;
-    margin-bottom: .75rem;
-    
+  line-height: 2rem;
+  font-weight: 600;
+  font-family: Oxanium;
+  margin: 0;
+  color: #edfdee;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
-
 
 @media (min-width: 768px) {
   .promise-h3 {
-    
     width: 80%;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
 }
 
-
-.promise-p{
+.promise-p {
   text-align: center;
   line-height: 1.75;
   margin: 0;
@@ -15662,7 +15650,103 @@ span.sicon {
 
 @media (min-width: 768px) {
   .promise-p {
-    
     text-align: left;
   }
 }
+
+.pattern-bg {
+  background-color: #171820;
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, #171820 0, #171820 80%, transparent 0, transparent),
+    radial-gradient(circle, transparent 20%, #171820 0, #171820 80%, transparent 0, transparent) 35px 35px,
+    linear-gradient(#1c1d26 2.8000000000000003px, transparent 0) 0 -1.4000000000000001px,
+    linear-gradient(90deg, #1c1d26 2.8000000000000003px, #171820 0) -1.4000000000000001px 0;
+
+  background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
+  color: #edfdee;
+}
+
+.faqs-container {
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #2b2c3b;
+  color: #edfdee;
+}
+
+@media (min-width: 1024px) {
+  .faqs-container {
+    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .faqs-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 676px) {
+  .faqs-container {
+    padding-bottom: 24rem !important;
+  }
+}
+
+.faq-header {
+  margin-bottom: 4rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .faq-header {
+    margin-bottom: 8rem;
+    font-size: 3.75rem;
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+    font-family: oxanium;
+    color: #edfdee;
+  }
+}
+
+.faq-list-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 18rem !important;
+}
+@media (min-width: 768px) {
+  .faq-list-container {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .faq-list-container {
+    width: 50%;
+  }
+}
+
+.faqs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #171820;
+  --tw-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    box-shadow: 0 0 transparent,0 0 transparent, 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    margin-bottom: 3rem;
+    border-radius: .375rem;
+  }
+
+  .open{
+    box-shadow:  0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+  }
+
+  .navbar-brand{
+    height: 55px;
+  }
