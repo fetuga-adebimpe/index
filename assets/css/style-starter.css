@@ -13141,10 +13141,12 @@ a.navbar-brand span.fa {
   .w3l-main-banner h3.gallery4-head {
     margin-bottom: 20px;
   }
-  .w3l-main-banner .banner-view {
-    min-height: 550px;
-  }
 }
+@media (max-width: 600px){
+.w3l-main-banner .banner-view {
+    min-height: 550px;
+    background: #111;
+}}
 
 @media (max-width: 569px) {
   .w3l-main-banner h3.gallery4-head {
@@ -15628,27 +15630,39 @@ span.sicon {
 
 
 
-.landing-children, .promise-h3{
+ .promise-h3{
   font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     font-family: Oxanium;
     margin: 0;
     color:#edfdee;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    
 }
 
 
 @media (min-width: 768px) {
-  .landing-children, .promise-h3 {
-    margin-bottom: 2rem;
+  .promise-h3 {
+    
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 
 .promise-p{
-  text-align: left;
+  text-align: center;
   line-height: 1.75;
   margin: 0;
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (min-width: 768px) {
+  .promise-p {
+    
+    text-align: left;
+  }
 }
