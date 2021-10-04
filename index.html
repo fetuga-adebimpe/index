@@ -21,16 +21,17 @@ Author URL: http://w3layouts.com
 </head>
 
 <body>
-  <!-- header -->
+  
   <header>
     <div class="w3l-header" id="home">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
           <!--<a class="navbar-brand m-0" href="index.html"><img class="main-head-logo" src="assets/images/martins-2.JPG"></img></a>
-          --> <!-- if logo is image enable this   
+          -->
+          <!-- if logo is image enable this   
           --><a class="navbar-brand" href="#index.html">
-                <img src="assets/images/martins-logo.JPG" alt="Your logo" title="Your logo" style="height:35px;" />
-            </a> 
+            <img src="assets/images/martins-logo.JPG" alt="Your logo" title="Your logo" style="height:35px;" />
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon fa fa-bars"></span>
@@ -55,8 +56,7 @@ Author URL: http://w3layouts.com
       </div>
     </div>
   </header>
-  <!-- //header -->
-  <!--  Main banner section -->
+  
   <section class="w3l-main-banner">
     <div class="banner-view text-white">
       <div class="banner-info container">
@@ -67,7 +67,7 @@ Author URL: http://w3layouts.com
           work even better. Alongside my clients, I uncover problems and solve them. In short, I create bolder online
           experiences.</p><br>
         <a href="portfolio.html" class="btn btn-light text-dark btn-style mr-3">HIRE ME</a>
-        <a href="servicesite.html" class="btn btn-outline-light btn-style">VIEW SERVICES</a>
+        <a href="#serve" class="btn btn-outline-light btn-style">VIEW SERVICES</a>
       </div>
     </div>
 
@@ -79,7 +79,7 @@ Author URL: http://w3layouts.com
 
   <section class="w3l-blog py-5 text-center">
     <div class="container py-lg-5">
-     <!-- <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-12">
           <div class="img-block">
             <a href="#img">
@@ -94,7 +94,7 @@ Author URL: http://w3layouts.com
           <h5 class="mt-3">Currently I'm a freelance designer and web developer, who works with a variety of clients and
             on many diverse projects.
           </h5>
-    
+
           <a href="blog1.html" class="btn-style btn-primary btn mt-lg-5 mt-4">Read More</a>
         </div>
         <!-- <div class="col-lg-3 col-6 pl-md-3 pl-2 mt-lg-0 mt-md-5 mt-4">
@@ -108,10 +108,11 @@ Author URL: http://w3layouts.com
     </div>
   </section>
 
-  <div id="serve" class="service-container px-4 md:px-24 lg:px-16 pt-16 pb-20 lg:pt-32 lg:pb-40">
-    <h2 class="h2-service-container">Ways I can help you</h2>
 
-    <section class="service-items-container">
+  <section class="service-items-container">
+    <div id="serve" class="service-container px-4 md:px-24 lg:px-16 pt-16 pb-20 lg:pt-32 lg:pb-40">
+      <h2 class="h2-service-container">Ways I can help you</h2>
+
       <div class="service-item">
         <div class="service-text__left">
           <div class="service-text-wrapper lg:w-4/5">
@@ -132,11 +133,6 @@ Author URL: http://w3layouts.com
 
 
       <div class="service-item mobile-reverse">
-        <div class="service-img">
-          <!-- <div class="w-md-3/4 gatsby-image-wrapper" >
-            <img aria-hidden="true" src="assets/images/graphsWoman.png" alt="" style="position:absolute; top: 0px; left: 0px; width:100%; height:100%; object-fit:cover; object-position:center center; opacity:0; transition-delay:500ms;">
-          --> <img src="assets/images/happyWoman.png" class="img-fluid img-service-container" alt="content-photo">
-        </div>
 
         <div class="service-text__right">
           <div class="service-text-wrapper lg:w-4/5">
@@ -147,6 +143,12 @@ Author URL: http://w3layouts.com
               audience it deserves!"</p>
           </div>
         </div>
+        <div class="service-img">
+          <!-- <div class="w-md-3/4 gatsby-image-wrapper" >
+            <img aria-hidden="true" src="assets/images/graphsWoman.png" alt="" style="position:absolute; top: 0px; left: 0px; width:100%; height:100%; object-fit:cover; object-position:center center; opacity:0; transition-delay:500ms;">
+          --> <img src="assets/images/happyWoman.png" class="img-fluid img-service-container" alt="content-photo">
+        </div>
+
       </div>
 
 
@@ -172,12 +174,6 @@ Author URL: http://w3layouts.com
 
 
       <div class="service-item mobile-reverse">
-        <div class="service-img">
-          <!-- <div class="w-md-3/4 gatsby-image-wrapper" >
-            <img aria-hidden="true" src="assets/images/graphsWoman.png" alt="" style="position:absolute; top: 0px; left: 0px; width:100%; height:100%; object-fit:cover; object-position:center center; opacity:0; transition-delay:500ms;">
-          --> <img src="assets/images/moneyWoman.png" class="img-fluid img-service-container" alt="content-photo">
-        </div>
-
         <div class="service-text__right">
           <div class="service-text-wrapper lg:w-4/5">
             <h3 class="h3-service-container">4. Sell Your Stuff Online</h3>
@@ -186,11 +182,92 @@ Author URL: http://w3layouts.com
               I'm here to help you set up an e-commerce store that looks amazing and makes you money.</p>
           </div>
         </div>
+        <div class="service-img">
+          <!-- <div class="w-md-3/4 gatsby-image-wrapper" >
+            <img aria-hidden="true" src="assets/images/graphsWoman.png" alt="" style="position:absolute; top: 0px; left: 0px; width:100%; height:100%; object-fit:cover; object-position:center center; opacity:0; transition-delay:500ms;">
+          --> <img src="assets/images/moneyWoman.png" class="img-fluid img-service-container" alt="content-photo">
+        </div>
       </div>
-  </div>
+    </div>
   </section>
 
-<!--
+
+  <section class="w3l-content-photo-5 w3l-quote-main py-5" id="client">
+    <div class="quote py-5">
+      <div class="container py-lg-5 ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h3 class="font-weight-bold mb-3">Clients talking</h3>
+              MARTINS is the best at what he does. He is the incredibly rare combination of artistic talent, technical
+              precision, thoughtfulness, and tireless work ethic. Working with Martins, I have come to expect nothing
+              less
+              than perfection and still find my expectations exceeded regularly.
+              <p> Engr. Jackson</p>
+              <p> Founder and CEO Ereme Jackson Global Services </p>
+            </div>
+            <div class="carousel-item">
+              <h3 class="font-weight-bold mb-3">Clients talking</h3>
+              Martins is a genius in his field. I have worked with several app designers in the past, and Martins grasp
+              of
+              user experience is top notch. He took my general concepts and delivered to me clean, intuitive, attractive
+              designs that also had personality behind them. He's responsive and honest, and I couldn't recommend him
+              more.
+              <p> Karen Lizzy</p>
+              <p>Founder Maxima Global Services.</p>
+            </div>
+            <div class="carousel-item">
+              <h3 class="font-weight-bold mb-3">Clients talking</h3>
+              Consistently delivering ahead of plan, with an high level of professionalism and integrity - happy to
+              recommend!
+              <p>Chukwudike ojongwo</p>
+              <p>Manager jokuson Global Concept Services.</p>
+            </div>
+
+            <div class="carousel-item">
+              <h3 class="font-weight-bold mb-3">Clients talking</h3>
+              We have utilise Martins for the design of our B2B corporate site and admin interfaces, plus we use him to
+              do
+              most of front-end on our site. Thus far, Martins has been an amazing pleasure to work with. He’s much
+              faster
+              than other designers or front-end developers I’ve seen and his rates are incredibly fair. I would
+              recommend him
+              to anyone.
+              <p>Fredrick Lawson</p>
+              <p>Founder and CEO Chuvcal and Emmaton Services </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <section class="w3l-footers-1">
+      <div class="footer py-3">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-lg-8 footer-left">
+                <p id="index.html" class="m-0">&copy; 2020 Portfolio. All Rights Reserved | Design by </p>
+              </div>
+              <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
+                <ul class="social m-0 p-0">
+                  <li><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#linkedin"><span class="fa fa-linkedin"></span></a></li>
+                  <li><a href="#instagram"><span class="fa fa-instagram"></span></a></li>
+                  <li><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!--
   <section id="Toolbox" class="toolbox-container pattern-bg px-4 md:px-24 lg:px-16 pt-16 pb-20 lg:pt-32 lg:pb-40">
     <h2 class="toolbox-header text-center">My Toolbox</h2>
 
@@ -335,14 +412,33 @@ Author URL: http://w3layouts.com
   </section>-->
 
 
-  
+
   <!--  //Main banner section -->
   <!-- w3l-content-photo-5 -->
-  <div class="w3l-content-photo-5 py-5" id="about">
-    <div class="content-main pt-lg-5 pt-md-3 pb-0">
-      <div class="container">
-       <!---- <div class="row">-->
-       <!-----   <div class="col-lg-4 content-photo">
+
+  <!--  <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>-->
+
+
+  <!--    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>-->
+
+
+
+
+
+  <!---- <div class="row">-->
+  <!-----   <div class="col-lg-4 content-photo">
             <a href="#"><img src="assets/images/martins-2.JPG" class="img-fluid" alt="content-photo"></a>
           </div>
           <div class="col-lg-8 content-left mt-lg-0 mt-5 ">
@@ -461,9 +557,9 @@ Author URL: http://w3layouts.com
   </section>
 -->
 
- 
- 
-         <!-- <div class="galleryContainer">
+
+
+  <!-- <div class="galleryContainer">
             <div class="gallery">
               <input type="text" name="controls" id="c1" checked><img class="galleryImage img-fluid" id="i1"
                 src="assets/images/g1.jpg" class="img" alt="">
@@ -494,7 +590,7 @@ Author URL: http://w3layouts.com
 
             </div>
           </div>-->
-        
+
   <!-- //gallery-7 -->
   <!--<section class="w3l-gallery-7">
 	<div class="gallery-7_sur py-5">
@@ -526,84 +622,20 @@ Author URL: http://w3layouts.com
 </section>
  //gallery-7 -->
   <!-- iphone home block -->
- 
+
   <!-- //iphone home block -->
   <!-- testimonial -->
-  <section class="w3l-quote-main" id="client">
-    <div class="quote py-5">
-      <div class="container py-lg-5">
-        <section class="w3l-gallery-7 text-center">
-          <div class="gallery-7_sur py-5">
-            <div class="container py-lg-5 ">
-              <div id="container">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <!--  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>-->
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <h3 class="font-weight-bold mb-3">Clients talking</h3>
-                      MARTINS is the best at what he does. He is the incredibly rare combination of artistic talent, technical
-                      precision, thoughtfulness, and tireless work ethic. Working with Martins, I have come to expect nothing less
-                      than perfection and still find my expectations exceeded regularly.
-                      <p> Engr. Jackson</p>
-                      <p> Founder and CEO Ereme Jackson Global Services </p>
-                    </div>
-                    <div class="carousel-item">
-                      <h3 class="font-weight-bold mb-3">Clients talking</h3>
-                      Martins is a genius in his field. I have worked with several app designers in the past, and Martins grasp of
-                      user experience is top notch. He took my general concepts and delivered to me clean, intuitive, attractive
-                      designs that also had personality behind them. He's responsive and honest, and I couldn't recommend him more.
-                      <p> Karen Lizzy</p>
-                      <p>Founder Maxima Global Services.</p>
-                    </div>
-                    <div class="carousel-item">
-                      <h3 class="font-weight-bold mb-3">Clients talking</h3>
-                      Consistently delivering ahead of plan, with an high level of professionalism and integrity - happy to recommend!
-                      <p>Chukwudike ojongwo</p>
-                      <p>Manager jokuson Global Concept Services.</p>
-                    </div>
-              
-                    <div class="carousel-item">
-                      <h3 class="font-weight-bold mb-3">Clients talking</h3>
-                      We have utilise Martins for the design of our B2B corporate site and admin interfaces, plus we use him to do
-                      most of front-end on our site. Thus far, Martins has been an amazing pleasure to work with. He’s much faster
-                      than other designers or front-end developers I’ve seen and his rates are incredibly fair. I would recommend him
-                      to anyone.
-                      <p>Fredrick Lawson</p>
-                      <p>Founder and CEO Chuvcal and Emmaton Services </p>
-              
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  </section>
+
   <!-- //testimonial -->
 
   <!-- home page blog-->
-  
-  
-  
-  
- 
-      
-          <!--<h5 class="mt-3">Imagination is more important than knowledge </h5>
+
+
+
+
+
+
+  <!--<h5 class="mt-3">Imagination is more important than knowledge </h5>
                 <p class="mt-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore minima doloribus provident, quia, ipsam totam
                     veniam iste ea temporibus non consequatur tenetur? Velit officiis laborum molestias ratione impedit, totam, praesentium a nulla
                     fuga aliquam repellendus facilis consequuntur corrupti cum delectus, quia maiores accusamus animi obcaecati vel ipsum.</p>
@@ -625,7 +657,8 @@ Author URL: http://w3layouts.com
     </div>
   </section>-->
   <!-- //home page blog-->
-  <!-- freelance hire me --><!---
+  <!-- freelance hire me -->
+  <!---
   <section class="w3l-grid-quote py-5">
     <div class="container py-lg-3">
       <h6>I'am available for freelance projects.</h6>
@@ -637,29 +670,7 @@ Author URL: http://w3layouts.com
   <!-- //freelance hire me -->
 
   <!-- Footer -->
-  <footer>
-    <section class="w3l-footers-1">
-      <div class="footer py-3">
-        <div class="container">
-          <div class="footer-content">
-            <div class="row">
-              <div class="col-lg-8 footer-left">
-                <p id="index.html" class="m-0">&copy; 2020 Portfolio. All Rights Reserved | Design by bimbim</p>
-              </div>
-              <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
-                <ul class="social m-0 p-0">
-                  <li><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                  <li><a href="#linkedin"><span class="fa fa-linkedin"></span></a></li>
-                  <li><a href="#instagram"><span class="fa fa-instagram"></span></a></li>
-                  <li><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </footer>
+
   <!-- //Footer -->
 
   <!-- move top -->

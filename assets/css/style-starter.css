@@ -626,6 +626,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 @media (min-width: 576px) {
   .container {
@@ -13577,6 +13578,10 @@ a.navbar-brand span.fa {
 .w3l-content-photo-5 {
   /*-- responsive design --*/
   /*-- //responsive design --*/
+  background: url(../images/g5.jpg) 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 .w3l-content-photo-5 .content-left {
   align-self: center;
@@ -13920,10 +13925,7 @@ a.navbar-brand span.fa {
 
 /*-- quote --*/
 .w3l-quote-main .quote {
-  background: url(../images/g5.jpg) 0px 0px;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
+ 
 }
 
 .w3l-quote-main .quote:before {
