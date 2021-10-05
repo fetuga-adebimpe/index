@@ -15778,7 +15778,7 @@ span.sicon {
   background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
   color: #edfdee;
   width:100%;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 
@@ -15815,14 +15815,11 @@ span.sicon {
 
 
   .project-header-h3{
-    margin-top: .5rem;
-      margin-bottom: .5rem;
-      line-height: 1.75rem;
-      font-size: 1.125rem;
-      font-family: Oxanium;
-      margin: 0;
-      color: #edfdee;
-      display: block;
+      line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: Oxanium;
+    margin: 0;
+    color: #edfdee;
   }
   
   
@@ -15855,9 +15852,7 @@ span.sicon {
   }}
   
   .project-div-codes{
-    display: flex;
-    margin-right: 5rem;
-    margin-left: 5rem;
+   
     justify-content: space-between;
     padding: 1rem;
   }
