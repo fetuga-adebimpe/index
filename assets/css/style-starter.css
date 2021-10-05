@@ -13105,15 +13105,13 @@ a.navbar-brand span.fa {
 }
 
 .w3l-main-banner .banner-view {
-  
-  background:#111;
+  background: #111;
   min-height: 700px;
   z-index: 0;
   display: grid;
   align-items: center;
   position: relative;
 }
-
 
 @media (max-width: 992px) {
   .w3l-main-banner h3.gallery4-head {
@@ -13579,9 +13577,9 @@ a.navbar-brand span.fa {
   /*-- responsive design --*/
   /*-- //responsive design --*/
   background: url(../images/g5.jpg) 0px 0px;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 .w3l-content-photo-5 .content-left {
   align-self: center;
@@ -13633,7 +13631,6 @@ a.navbar-brand span.fa {
 
 /*--//content with photo5--*/
 /* gallery-7 */
-
 
 .w3l-gallery-7 .galleryContainer {
   display: flex;
@@ -13925,7 +13922,6 @@ a.navbar-brand span.fa {
 
 /*-- quote --*/
 .w3l-quote-main .quote {
- 
 }
 
 .w3l-quote-main .quote:before {
@@ -14899,7 +14895,7 @@ span.sicon {
   border: 1px solid var(--bg-light);
   background-color: var(--bg-light);
   border-radius: var(--card-curve);
-  padding: 2rem;
+
 }
 
 .w3l-services-block-3 .feature-body:hover {
@@ -14909,7 +14905,7 @@ span.sicon {
 }
 
 .w3l-services-block-3 .service1:hover {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(../images/g1.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(../images/martins-logo.JPG);
 }
 
 .w3l-services-block-3 .service2:hover {
@@ -15739,16 +15735,228 @@ span.sicon {
   margin: 0;
   padding: 0;
   background-color: #171820;
-  --tw-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-    box-shadow: 0 0 transparent,0 0 transparent, 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-    margin-bottom: 3rem;
-    border-radius: .375rem;
-  }
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 transparent, 0 0 transparent, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin-bottom: 3rem;
+  border-radius: 0.375rem;
+}
 
-  .open{
-    box-shadow:  0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-  }
+.open {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
 
-  .navbar-brand{
-    height: 55px;
+.navbar-brand {
+  height: 55px;
+}
+
+#projects {
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  #projects {
+    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
+}
+
+
+@media (min-width: 768px) {
+  #projects {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+
+.pattern-bg {
+  background-color: #171820;
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, #171820 0, #171820 80%, transparent 0, transparent),
+    radial-gradient(circle, transparent 20%, #171820 0, #171820 80%, transparent 0, transparent) 35px 35px,
+    linear-gradient(#1c1d26 2.8000000000000003px, transparent 0) 0 -1.4000000000000001px,
+    linear-gradient(90deg, #1c1d26 2.8000000000000003px, #171820 0) -1.4000000000000001px 0;
+  background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
+  color: #edfdee;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1024px){
+.projects-container,
+.pattern-bg{
+  width: 30rem;
+}}
+
+
+@media (min-width: 640px){
+  .projects-container,
+  .pattern-bg{
+    width: 28rem;
+  }}
+  
+  
+
+.leading-none{
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1;
+  font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+    font-family: Oxanium;
+    color: #edfdee;
+}
+
+@media (min-width: 768px){
+  .leading-none {
+      margin-bottom: 4rem;
+      font-size: 3.75rem;
+      line-height: 1;
+  }}
+
+
+
+@media (min-width: 768px){
+.toggleSwitch-module--toggleSwitchWrapper--xYvWC.flex.justify-center.my-16.md\:mt-32.md\:mb-16 {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+
+}}
+
+.toggleSwitch-module--toggleSwitchWrapper--xYvWC.flex.justify-center.my-16.md\:mt-32.md\:mb-16{
+  margin-top: 4rem;
+    margin-bottom: 4rem;
+ /*   justify-content: center;
+    display: flex;*/
+    align-items: center;
+}
+
+
+button.rounded-l-md.w-32.toggleSwitch-module--active--YSoov.toggleSwitch-module--toggleArea--3SHJU{
+  transition: all .3s ease-out;
+  background-color: #5626a9;
+    color: #fff;
+    padding: 1.125em 1em;
+    width: 8rem;
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+    cursor: pointer;
+    text-transform: none;
+    text-align: center;
+}
+
+
+
+
+
+@media (min-width: 768px){
+.project-square-wrapper {
+    padding-bottom: 90%;
+    width: 90%;
+}}
+
+
+
+.project-square-wrapper {
+  border-radius: .5rem;
+  margin: 3rem auto;
+  padding-bottom: 100%;
+  position: relative;
+  --tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+  box-shadow: var(0 0 transparent,0 0 transparent),var(0 0 transparent,0 0 transparent), 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.rounded-lg{
+  display: grid;
+  grid-template-rows: repeat(2,minmax(0,1fr));
+  top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border-radius: .5rem;
+}
+
+
+.project-container{
+  background-color: #1c1d26;
+}
+
+
+.project-image-container {
+  position: relative;
+  margin-bottom: 0;
+  margin: 1rem;
+  padding-bottom: inherit;
+}
+
+.gatsby-image-wrapper {
+  position: relative;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: .375rem;
+    border-top-left-radius: .375rem;
+    width: 100%;
+    padding-bottom: 60%;
+
+}
+
+
+.project-images{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+    border-style: solid;
+}
+
+
+.project-image-container>div {
+  position: absolute!important;
+}
+
+
+
+
+.div-p-carousel{
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 1.8rem;
+}
+
+
+.div-p2-carousel{
+  color: #000;
+  font-size:1.2rem;
+  padding-top: .2rem;
+
+}
+
+
+
+
+.row-padding-features{
+  display: flex;
+    flex-wrap: wrap;
+    margin-right: 120px;
+    margin-left: 120px;
+}
