@@ -6135,6 +6135,7 @@ a.close.disabled {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
+  color: #eaf3ebad;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -13634,7 +13635,7 @@ a.navbar-brand span.fa {
 .w3l-content-photo-5 {
   /*-- responsive design --*/
   /*-- //responsive design --*/
-  background: url(../images/g5.jpg) 0px 0px;
+  background: url(../images/g3.jpg) 0px 0px;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -13989,7 +13990,7 @@ a.navbar-brand span.fa {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .w3l-quote-main .quote h4 {
@@ -15951,7 +15952,7 @@ faq-svg {
 
 
 .div-p-carousel{
-  color: #000;
+  color: #eee;
   font-weight: bold;
   font-size: 1.5rem;
   padding-top: 1.8rem;
@@ -15959,7 +15960,7 @@ faq-svg {
 
 
 .div-p2-carousel{
-  color: #000;
+  color: #bbb;
   font-size:1.2rem;
   padding-top: .2rem;
 
