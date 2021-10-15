@@ -13143,28 +13143,28 @@ a.navbar-brand span.fa {
 }
 
 .w3l-main-banner {
-  position: relative;
-  background-color: #111;
+ position: relative;
+  background-color: #000;
 }
 
 .w3l-main-banner h3.banner-text {
   font-weight: 700;
   font-size: 65px;
   line-height: 80px;
-  color: #ffffff;
+  color: #000;
 }
 
 .w3l-main-banner .banner-info p {
   font-size: 20px;
   font-weight: 400;
-  color: #ffffff;
+  color: #000;
   display: inline-block;
   line-height: 32px;
   max-width: 750px;
 }
 
 .w3l-main-banner .banner-view {
-  background: #111;
+  background: rgba(220, 227, 230, 0.685);
   min-height: 700px;
   z-index: 0;
   display: grid;
@@ -13204,7 +13204,7 @@ a.navbar-brand span.fa {
 @media (max-width: 600px) {
   .w3l-main-banner .banner-view {
     min-height: 550px;
-    background: #111 !important;
+   /* background: #111 !important;*/
   }
 }
 
@@ -13233,9 +13233,9 @@ a.navbar-brand span.fa {
   width: 1px;
   height: 1px;
   background: transparent;
-  box-shadow: 272px 730px #fff, 1776px 1759px #fff, 1095px 372px #fff, 1946px 1764px #fff, 1205px 1888px #fff,
-    1468px 1233px #fff, 263px 245px #fff, 1189px 398px #fff, 63px 1560px #fff, 1664px 1274px #fff, 612px 1247px #fff,
-    1377px 925px #fff, 276px 738px #fff, 586px 78px #fff, 169px 241px #fff, 386px 117px #fff, 64px 934px #fff,
+  box-shadow: 272px 730px #000, 1776px 1759px #000, 1095px 372px #000, 1946px 1764px #000 1205px 1888px #000
+    1468px 1233px #000 263px 245px #000 1189px 398px #000 63px 1560px #000 1664px 1274px #000 612px 1247px #000
+    1377px 925px #000 276px 738px #000 586px 78px #000, 169px 241px #fff, 386px 117px #fff, 64px 934px #fff,
     1544px 753px #fff, 1193px 689px #fff, 1366px 1223px #fff, 551px 28px #fff, 292px 1126px #fff, 927px 742px #fff,
     1199px 1179px #fff, 203px 1409px #fff, 1209px 1951px #fff, 843px 920px #fff, 220px 96px #fff, 158px 94px #fff,
     1483px 1931px #fff, 1921px 1272px #fff, 276px 1460px #fff, 1765px 1744px #fff, 1353px 1369px #fff,
@@ -15965,9 +15965,97 @@ faq-svg {
   padding-top: .2rem;
 
 }
-/*
+
+
+
+
+.nba{
+  font-family: Oxanium;
+  
+  color: #edfdee;
+  width: 100%;
+    text-align: center;
+  z-index: 1;
+  font-size: 1rem;
+  font-weight: 700;
+  }
+  
+  
+  @media (min-width: 768px){
+  .nba {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }}
+  
+  .nbaa{
+      cursor: pointer;
+      font-weight: 800;
+      width: 100%;
+      height: auto;
+      z-index: 1;
+      text-align: center;
+      color: #edfdee;
+      align-items: center;
+      font-size: .75rem;
+  
+    }
+  
+    .nbaa:focus,
+  .nbaa:hover {
+    color: #2f9936;
+   font-size: large;
+  }
+  
+  
+  @media (min-width: 768px){
+    .nbaa {
+      font-size: .875rem;
+      line-height: 1.25rem;
+  }}
+  
+  
+  
+  
+  
+  .daflex{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 51%;
+    background: rgba(0, 0, 0, 0.458);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    align-content: center;
+    margin: 1rem auto;
+    padding:  20px;
+    
+  
+  }
+
+  .h2project{
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1;
+    font-size: 2.25rem;
+      font-weight: 900;
+      font-family: Oxanium;
+      color: rgb(201, 197, 197);
+  }
+  
+  @media (min-width: 768px){
+    .h2project {
+        margin-bottom: 3rem;
+        font-size: 3.75rem;
+        line-height: 1;
+    }}
+
+    
+
+
+
+
 .projects-container {
-  /*background-color: #171820;
+  /*background-color: #171820;*/
   background:  radial-gradient(circle, transparent 20%, #171820 0, #171820 80%, transparent 0, transparent),
     radial-gradient(circle, transparent 20%, #171820 0, #171820 80%, transparent 0, transparent) 35px 35px,
     linear-gradient(#1c1d26 2.8000000000000003px, transparent 0) 0 -1.4000000000000001px,
@@ -15976,12 +16064,8 @@ faq-svg {
  color: #edfdee;
  opacity: 1;
   width:100%;
-  top: 50%;
-  position: absolute;
-height: auto;
-text-align: center;
-transform: translatey(-50%);
-z-index: 1;
+  padding-bottom:4rem;
+  padding-top: 4rem;
 
 }
 
@@ -16077,7 +16161,7 @@ z-index: 1;
 .project-code-link:focus,
 .project-code-link:hover {
   color: hsla(0, 0%, 100%, 0.75);
- /* background-color: #31323b;
+ /* background-color: #31323b;*/
 }
 
 
@@ -16102,7 +16186,7 @@ z-index: 1;
 
 .project-buttons-container a {
   padding: 1.125em 1em;
-}*/
+}
 
 
 
@@ -16182,10 +16266,12 @@ z-index: 1;
   text-align: center;
   transform: translatey(-50%);
   z-index: 1;
-  background: rgba(31, 25, 1, 0.603);
+  background: rgba(167, 135, 9, 0.603);
  
 }
-/*
+
+
+
 #ExampleIndicators .carousel-inner .carousel-item h1{
   color: #fff;
   width: 100%;
@@ -16198,7 +16284,7 @@ font-weight: 750;
 }
 
 
-#ExampleIndicators .carousel-inner .carousel-item a{
+#ExampleIndicators .carousel-inner .carousel-item p{
   color: #ccc;
   width: 100%;
   height: auto;
@@ -16207,89 +16293,12 @@ font-size: 1.2em;
 font-weight: 500;
 text-align: center;
 
-}*/
-
-
-.nba{
-font-family: Oxanium;
-
-color: #edfdee;
-width: 100%;
-  text-align: center;
-z-index: 1;
-font-size: 1rem;
-font-weight: 700;
 }
 
 
-@media (min-width: 768px){
-.nba {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}}
-
-.nbaa{
-    cursor: pointer;
-    font-weight: 800;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-    text-align: center;
-    color: #edfdee;
-    align-items: center;
-    font-size: .75rem;
-
-  }
-
-  .nbaa:focus,
-.nbaa:hover {
-  color: #2f9936;
- font-size: large;
-}
-
-
-@media (min-width: 768px){
-  .nbaa {
-    font-size: .875rem;
-    line-height: 1.25rem;
-}}
 
 
 
-
-
-.daflex{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 51%;
-  background: rgb(31, 25, 1);
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  align-content: center;
-  margin: 7px auto;
-  padding:  20px;
-  
-
-}
-
-
-.h2project{
-  text-align: center;
-  margin-bottom: 1rem;
-  line-height: 1;
-  font-size: 2.25rem;
-    font-weight: 900;
-    font-family: Oxanium;
-    color: #edfdee;
-}
-
-@media (min-width: 768px){
-  .h2project {
-      margin-bottom: 3rem;
-      font-size: 3.75rem;
-      line-height: 1;
-  }}
 
 
 /*
